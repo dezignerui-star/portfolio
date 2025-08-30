@@ -186,3 +186,28 @@
     padding: 2rem;
   }
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  // background: linear-gradient(
+  //   180deg,
+  //   #9c67f1 0%,
+  //   #e877d7 50%,
+  //   #b274f3 100%
+  // );
+  background: linear-gradient(
+    180deg,
+    #6c798e 0%,
+    #526480 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 4px;
+
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+} 
